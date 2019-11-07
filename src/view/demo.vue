@@ -24,7 +24,7 @@ export default {
   },
   components: {
 	live2dV2,
-	live3dV3
+	live2dV3
   },
   // computed: {
   //   ...mapGetters(['admins', 'cruds', 'mode', 'sideShow', 'curUser'])
