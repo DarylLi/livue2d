@@ -1,5 +1,5 @@
-##vue项目中添加live2d看板动画。在原来只支持引入外部cdn基础上，实现本地读取live2d文件~
-## 支持的live2d版本: Cubism 2, Cubism 3(只支持外网cdn资源加载)
+## vue项目中添加live2d看板动画。在原来只支持引入外部cdn基础上，实现本地读取live2d文件~
+# 支持的live2d版本: Cubism 2, Cubism 3(只支持外网cdn资源加载)
 
 ``` bash
 # install dependencies
@@ -10,7 +10,7 @@ npm run dev
 
 # build for production with minification
 npm run build
-
+```
 
 
 ### 说明及使用方法：
