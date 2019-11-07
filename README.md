@@ -14,21 +14,21 @@ npm run build
 
 
 ### 说明及使用方法：
-## 该项目参考借鉴其他dalao 不光是代码还是素材，仅仅作了代码的整合，部分逻辑功能和优化还正在做
+该项目参考借鉴其他dalao 不光是代码还是素材，仅仅作了代码的整合，部分逻辑功能和优化还正在做
 
 ## 使用:
-	# vue页面中直接引入对应版本的组件即可
+	vue页面中直接引入对应版本的组件即可
 	<!-- 
 		import live2dV2 from '@/components/l2d/live2d'
 		import live2dV3 from '@/components/l2d/live2d-3'
 	-->
 
-	# live 2.0 相关配置:
-		# 加载本地的live2d model文件需要引入live2d-local.js文件:
+	l2d 2.0 相关配置:
+		 加载本地的live2d model文件需要引入live2d-local.js文件:
 			import './js/live2d-local.js'
-		# 如果想要使用外网cdn挂载的live2d 引入的文件则为: live2d.min.js
+		 如果想要使用外网cdn挂载的live2d 引入的文件则为: live2d.min.js
 			import './js/live2d.min.js'
-		# live2d渲染方法:
+		 live2d渲染方法:
 			本地:
 				1. 首先引入live2d资源文件夹下的对应的json文件: 
 				如 " import model from './model/Kobayaxi/model.json 
@@ -52,7 +52,7 @@ npm run build
 				选好对应model文件的cdn地址直接传进该渲染方法即可:
 				loadlive2d("live2d", 'https://live2d.fghrsh.net/api/get/?id=1-55')
 
-	# live 3.0 相关配置（目前只支持外网cdn加载方式，本地暂时做不到。。）:
+	 l2d 3.0 相关配置（目前只支持外网cdn加载方式，本地暂时做不到。。）:
 		请依次引入下方依赖文件：
 		<--! 
 		import './js/3.0/pixi/pixi.min.js'
@@ -74,6 +74,6 @@ npm run build
 
 		loadModel(option)
 
-### API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途（喜欢就去游戏里面氪吧！
+## API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途（喜欢就去游戏里面氪吧！
 
 
