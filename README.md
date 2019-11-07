@@ -20,7 +20,7 @@ npm run build
 	# vue页面中直接引入对应版本的组件即可
 	<!-- 
 		import live2dV2 from '@/components/l2d/live2d'
-		import live3dV3 from '@/components/l2d/live2d-3'
+		import live2dV3 from '@/components/l2d/live2d-3'
 	-->
 
 	# live 2.0 相关配置:

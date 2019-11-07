@@ -6,14 +6,14 @@
   </div>
   <div class='live2dFrame'>
   	<div class='header'>live2d 3.0</div>
-	<live3dV3></live3dV3>
+	<live2dV3></live2dV3>
   </div>
   </div>
 </template>
 <script>
 // import liveStart from './js/live2d-link.js'
 import live2dV2 from '@/components/l2d/live2d'
-import live3dV3 from '@/components/l2d/live2d-3'
+import live2dV3 from '@/components/l2d/live2d-3'
 export default {
   name: 'l2d',
   data() {
