@@ -113,7 +113,6 @@ var LIVE2DCUBISMPIXI;
     __extends(MaskSpriteContainer, _super);
 
     function MaskSpriteContainer(coreModel, pixiModel) {
-        console.log(pixiModel,'dayede')
       var _this = _super.call(this) || this;
       _this._maskShaderVertSrc = new String("\n            attribute vec2 aVertexPosition;\n            attribute vec2 aTextureCoord;\n            uniform mat3 projectionMatrix;\n            varying vec2 vTextureCoord;\n            void main(void){\n                gl_Position = vec4((projectionMatrix * vec3(aVertexPosition, 1.0)).xy, 0.0, 1.0);\n                vTextureCoord = aTextureCoord;\n            }\n            ");
       _this._maskShaderFragSrc = new String("\n            varying vec2 vTextureCoord;\n            uniform sampler2D uSampler;\n            void main(void){\n                vec4 c = texture2D(uSampler, vTextureCoord);\n                c.r = c.a;\n                c.g = 0.0;\n                c.b = 0.0;\n                gl_FragColor = c;\n            }\n            ");
